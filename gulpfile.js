@@ -13,7 +13,7 @@ const today = dt.format('Y-m-d');
 const package_json = JSON.parse(fs.readFileSync('./package.json'));
 const release_filename = `${package_json.name}-v${package_json.version}.kpz`;
 
-const pm_name = 'KitchenSink';
+const pm_name = 'Ill_libris';
 const pm_file = pm_name+'.pm';
 const pm_file_path = path.join('Koha', 'Plugin', 'Se', 'BibMellansjo');
 const pm_file_path_full = path.join(pm_file_path, pm_file);
