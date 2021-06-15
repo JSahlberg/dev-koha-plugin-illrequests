@@ -1,0 +1,9 @@
+name: Libris Fjärrlån Plugin
+author: Johan Sahlberg
+date_authored: 2009-01-27
+date_updated: 1900-01-01
+minimum_version: {MINIMUM_VERSION}
+maximum_version:
+version: {VERSION}
+description: Bleh!
+module: Koha::Plugin::Se::BibMellansjo::Ill_libris
