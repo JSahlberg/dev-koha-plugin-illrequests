@@ -240,7 +240,7 @@ sub opac_head {
     return q|
         <style>
           body {
-            background-color: orange;
+
           }
         </style>
     |;
@@ -254,7 +254,9 @@ sub opac_js {
     my ( $self ) = @_;
 
     return q|
-        <script>console.log("Thanks for testing the kitchen sink plugin!");</script>
+        <script>
+          console.log("Thanks for testing the kitchen sink plugin!");
+        </script>
     |;
 }
 
@@ -269,7 +271,7 @@ sub intranet_head {
     return q|
         <style>
           body {
-            background-color: orange;
+
           }
         </style>
     |;
@@ -283,7 +285,9 @@ sub intranet_js {
     my ( $self ) = @_;
 
     return q|
-        <script>console.log("Thanks for testing the kitchen sink plugin!");</script>
+        <script>
+          console.log("Thanks for testing the kitchen sink plugin!");
+        </script>
     |;
 }
 
